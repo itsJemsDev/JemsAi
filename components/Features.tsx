@@ -1,9 +1,7 @@
-import Image from "next/image";
 import FeatureCard from "@/components/FeatureCard";
 import Parallax from "@/components/Parallax";
 import Reveal from "@/components/Reveal";
 import {
-  ArrowRightIcon,
   BracketsIcon,
   CheckIcon,
   ChipIcon,
@@ -110,35 +108,6 @@ export default function Features() {
                 />
               </Reveal>
             ))}
-            <Reveal delay={300} className="h-full">
-              <a
-                href="https://www.npmjs.com/package/jemsai"
-                target="_blank"
-                rel="noreferrer"
-                className="group relative flex h-full flex-col rounded-xl border border-border bg-card p-5 transition-colors duration-300 hover:border-border-strong hover:bg-card-elevated sm:p-6"
-              >
-                <div className="mb-4 flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg border border-border bg-white">
-                  <Image
-                    src="/JemsAiLogo.jpg"
-                    alt=""
-                    width={1254}
-                    height={1254}
-                    className="h-full w-full object-cover"
-                    aria-hidden
-                  />
-                </div>
-                <h3 className="text-base font-medium text-foreground">
-                  Start building
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  Install globally and go from CLI to agent in under a minute.
-                </p>
-                <span className="mt-auto flex items-center gap-1.5 pt-4 text-sm font-medium text-accent">
-                  Get Jems AI
-                  <ArrowRightIcon className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
-                </span>
-              </a>
-            </Reveal>
           </div>
         </div>
 
