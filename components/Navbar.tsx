@@ -12,7 +12,6 @@ import { container } from "@/components/styles";
 const navLinks = [
   { label: "Features", href: "#features" },
   { label: "Skills", href: "#skills" },
-  { label: "Docs", href: "https://www.npmjs.com/package/jemsai" },
 ];
 
 export default function Navbar() {
